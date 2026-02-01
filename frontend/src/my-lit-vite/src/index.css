@@ -1,14 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron:regular,500,600,700,800,900&display=swap');
+
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+    --bg-dark: hsl(298 100% 2%);
+    --bg: hsl(300 80% 5%);
+    --bg-light: hsl(301 51% 9%);
+    --text: hsl(303 100% 98%);
+    --text-muted: hsl(303 40% 72%);
+    --highlight: hsl(302 28% 41%);
+    --border: hsl(301 37% 29%);
+    --border-muted: hsl(300 60% 18%);
+    --primary: hsl(303 44% 72%);
+    --secondary: hsl(129 37% 63%);
+    --danger: hsl(8 58% 66%);
+    --warning: hsl(51 41% 48%);
+    --success: hsl(150 37% 53%);
+    --info: hsl(217 66% 68%);
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: var(--bg-dark);
+    --font-main: "Orbitron", sans-serif;
 }
+
+body {
+    font-family: var(--font-main), serif;
+}
+

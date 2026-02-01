@@ -14,10 +14,19 @@ export class MainMenu extends LitElement {
 
 
     static styles = css`
+        
+        h1 {
+            color: var(--text);
+            font-family: var(--font-main), sans-serif; 
+        }
     `;
 
     render() {
-        return html`<h1>Hello Lit!</h1>`;
+        return html`
+            <body>
+                <h1>Hello Lit!</h1>
+            </body>
+           `;
     }
 }
 
